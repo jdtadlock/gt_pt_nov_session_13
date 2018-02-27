@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 25px 5%;
+}
+
+form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+form input, form textarea, form button {
+  padding: 7px;
+  margin-bottom: 5px;
+  font-size: 1.003rem;
+}
+
+#notes {
+  display: flex;
+}
+
+.note {
+  background: #555;
+  color: #fff;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
